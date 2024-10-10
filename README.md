@@ -22,11 +22,15 @@ A few notes before running :
 
 
 A few notes on the thresholds:
-1)NMS for bounding boxes used for filtering out overlapping boxes
-2)NMS for segmentation masks used for filtering out overlapping masks
+1) NMS for bounding boxes used for filtering out overlapping boxes
+   
+2) NMS for segmentation masks used for filtering out overlapping masks
+   
 3) Tolerance used to filter out bounding boxes based on confidence relative to best detection score
-4)Area threshold  with value of  areams.mean() - std_multiplier*areas.std() used to filter out detections of bboxes that are too large.
-5)There are a few more thresholds implemented for example height filtering that are unused feel free to experiment with those as well.
+   
+4) Area threshold  with value of  areams.mean() - std_multiplier*areas.std() used to filter out detections of bboxes that are too large.
+   
+5) There are a few more thresholds implemented for example height filtering that are unused feel free to experiment with those as well.
 
 
 Examples and results.
