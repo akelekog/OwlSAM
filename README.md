@@ -17,7 +17,7 @@ The project is meant to be as user-friendly as possible all neccesary installmen
 A few notes before running :
 1) Make sure to change the paths , since the project was developed in a google colab environment.
 2) Make sure to experiment with the different thresholds when using with your own dataset , the model's thresholds are tuned for my  "control" dataset which is provided in this repo.
-3) As of now the seleftion of the best part of the query  to crop (as you will in the notebook) is done manually so make sure to observe how you crop the prompts.
+3) As of now the selection of the best part of the query  to crop (as you will in the notebook) is done manually so make sure to observe how you crop the prompts.
 4) Although I am using the large SAM model the project should run with other checkpoints as well.Same goes for Owl-v2.
 
 
